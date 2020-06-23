@@ -1,4 +1,3 @@
-
 html, body {
     height: 100%;
     width: 100%;
@@ -12,12 +11,102 @@ body{
 * {
   box-sizing: border-box;
 }
+
+
+/* -------------------- OLIS START -------------------- */
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(img/2.png);
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing:5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 1px;
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(14, 204, 241, 0.9);
+  /* EDITED by BOED --------------------
+  position :fixed; 
+  top: 0;
+  z-index: 10;  
+  -------------------------------------- */
+}
+
+.logo {
+  width: 150px;
+  margin-top: 10px;
+  color: white;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* -------------------- OLIS END -------------------- */
+
+
+
+
+/* -------------------- BOED START -------------------- */
+.header-mobile{
+  display: none;
+}
 .heading{
   padding: 10px 30px;
   text-align: center;
 }
 .m-0{
   margin: 0;
+}
+.m-b-xl{
+  margin-bottom: 50px;
 }
 .row:after {
   	content: "";
@@ -96,11 +185,181 @@ body{
   background-color: #007CFF; 
 }
 
-@media only screen and (max-width: 670px) {
-  .col-2 {
-    width: 100%;
-  }
-  .square li {
-	min-height: 220px;
-  }
+
+.testi-bg {
+  background-color: #bcf3f7;
+  border-radius: 10px;
+  padding: 10px;
 }
+.images-thumbs {
+    float: left;
+    max-width: 120px;
+}
+.images-thumbs img {
+    width: 100%;
+}
+.testimoni-text{
+  margin-left: 130px;
+  text-align: left;
+}
+.testimoni-text h1,
+.testimoni-text h2{
+  margin: 0px;
+}
+.testimoni-text p {
+  display: inline-block;
+  max-height: 72px;
+  overflow: hidden;
+}
+/* -------------------- BOED END -------------------- */
+
+
+/* -------------------- AZIZAH START -------------------- */
+
+.service .icon img{
+  height: 200px;
+  width:200px;
+}
+
+.service-wrapper{
+  /*height: 400px;*/ /* edited by boed */
+  padding-bottom: 50px;
+  padding-right: 5%;
+  padding-left: 5%;
+  background-color: #bcf3f7;
+  text-align: center;
+}
+
+.service-wrapper .judul{
+  color:#008694;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+.service-wrapper h1{
+  font-size: 35px; 
+  font-weight: bold; 
+  line-height: 26.4px;
+}
+
+.service-wrapper .service{
+  float:left;
+  width:25%;
+}
+
+.service-wrapper .icon{
+  position: relative;
+	
+}
+
+.service-wrapper .text{
+  margin-top: 10px;
+  font-size: 14px;
+  color: #407275;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+/* -------------------- AZIZAH END -------------------- */
+
+
+
+/* -------------------- APRI START -------------------- */
+
+
+.testimoni .kotakkiri{
+	background-color:#00CED1;
+	border-radius:10px;
+	float:left;
+	display:inline-block;
+    width:46%;
+	height:154px;
+	padding: 20px 15px;
+}
+
+.testimoni .kotakkiri img{
+	height:130px;
+	width:100px;
+	float:left;
+	margin:12px 12px;
+}
+
+.testimoni .kotakkiri h1{
+	font-size:15px;
+	text-align:left;
+	margin-left:10px;
+	margin-bottom:0;
+}
+
+.testimoni .kotakkiri h2{
+	font-size:13px;
+	text-align:left;
+	margin:0 10px;
+	color:white;
+}
+
+.testimoni .kotakkiri p{
+	text-align:justify;
+	font-size:12px;
+	color:black;
+	margin-right:20px;
+	margin-top:0;
+}
+
+.testimoni .kotakkanan{
+	background-color:#00CED1;
+	border-radius:10px;
+	float:right;
+	display:inline-block;
+    width:46%;
+	height:154px;
+	padding: 20px 15px;
+}
+
+.testimoni .kotakkanan img{
+	height:130px;
+	width:100px;
+	float:left;
+	margin:12px 12px;
+}
+
+.testimoni .kotakkanan h1{
+	font-size:15px;
+	text-align:left;
+	margin-left:10px;
+	margin-bottom:0;
+}
+
+.testimoni .kotakkanan h2{
+	font-size:13px;
+	text-align:left;
+	margin:0 10px;
+	color:white;
+}
+
+.testimoni .kotakkanan p{
+	text-align:justify;
+	font-size:12px;
+	color:black;
+	margin-right:20px
+	margin-top:0;
+	margin-bottom:20px;
+}
+
+/* -------------------- APRI END -------------------- */
+
+
+
+/* -------------------- ARKHEI END -------------------- */
+
+.footer {
+  background-color: #3C3C3C;
+  color: #fff;
+  padding: 20px;
+}
+.footer-left{
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+/* -------------------- ARKHEI END -------------------- */
